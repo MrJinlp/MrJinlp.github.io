@@ -19,21 +19,23 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="JS高程读书笔记《一》  JS的基本数据类型    基本数据类型:Undefined、Null、Boolean、Number 和 String  这 5 种基本数据类型是按值访问的，因为可以操作保存在变量中的实际的值。   引用数据类型：Objec、Array、Date、RegExp、Function  引用类型的值是保存在内存中的对象。与其他语言不同，JavaScript 不允许直接访问内存中的">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2025/07/03/hello-world/index.html">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2020/09/01/JS%E9%AB%98%E7%A8%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%8A%E4%B8%80%E3%80%8B/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="JS高程读书笔记《一》  JS的基本数据类型    基本数据类型:Undefined、Null、Boolean、Number 和 String  这 5 种基本数据类型是按值访问的，因为可以操作保存在变量中的实际的值。   引用数据类型：Objec、Array、Date、RegExp、Function  引用类型的值是保存在内存中的对象。与其他语言不同，JavaScript 不允许直接访问内存中的">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-07-03T09:22:56.576Z">
-<meta property="article:modified_time" content="2025-07-03T09:22:56.576Z">
+<meta property="og:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bc86d4dbafe1420d8b1bc19a3f2df01f~tplv-k3u1fbpfcp-zoom-1.image">
+<meta property="article:published_time" content="2020-09-01T11:43:46.885Z">
+<meta property="article:modified_time" content="2020-10-22T07:36:08.571Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bc86d4dbafe1420d8b1bc19a3f2df01f~tplv-k3u1fbpfcp-zoom-1.image">
   
   
   
-  <title>Hello World - Hexo</title>
+  <title>Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -199,7 +201,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello World"></span>
+            <span id="subtitle" data-typed-text=""></span>
           
         </div>
 
@@ -210,8 +212,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-07-03 17:22" pubdate>
-          2025年7月3日 下午
+        <time datetime="2020-09-01 19:43" pubdate>
+          2020年9月1日 晚上
         </time>
       </span>
     
@@ -222,7 +224,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          18 字
+          1.3k 字
         
       </span>
     
@@ -233,7 +235,7 @@
         
         
         
-          1 分钟
+          11 分钟
         
       </span>
     
@@ -270,24 +272,61 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Hello World</h1>
+            <h1 id="seo-header"></h1>
             
             
               <div class="markdown-body">
                 
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+                <h1 style="margin: .67em 0;font-size: 2.5rem;font-weight: 700;line-height: 1.5;" class="article-title">JS高程读书笔记《一》</h1>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<section style="font-size: 16px; padding: 0 10px; word-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; line-height: 1.25; color: #2b2b2b; font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light; letter-spacing: 2px; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.04) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.04) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><h2 style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; display: block; border-bottom: 4px solid #40B8FA;" ><span class="prefix" style="display: flex; width: 20px; height: 20px; background-size: 20px 20px; background-image: url(https://my-wechat.mdnice.com/fullstack-1.png); margin-bottom: -22px;"></span><span class="content" style="display: flex; color: #40B8FA; font-size: 20px; margin-left: 25px;">JS的基本数据类型</span><span class="suffix" style="display: flex; box-sizing: border-box; width: 200px; height: 10px; border-top-left-radius: 20px; background: RGBA(64, 184, 250, .5); color: rgb(255, 255, 255); font-size: 16px; letter-spacing: 0.544px; justify-content: flex-end; float: right; margin-top: -10px; box-sizing: border-box !important; overflow-wrap: break-word !important;"></span></h2>
+</section>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<ul>
+<li><p>基本数据类型:Undefined、Null、Boolean、Number 和 String</p>
+<blockquote>
+<p>这 5 种基本数据类型是按值访问的，因为可以操作保存在变量中的实际的值。</p>
+</blockquote>
+</li>
+<li><p>引用数据类型：Objec、Array、Date、RegExp、Function</p>
+<blockquote>
+<p>引用类型的值是保存在内存中的对象。与其他语言不同，JavaScript 不允许直接访问内存中的位置，</p>
+<p>也就是说不能直接操作对象的内存空间。在操作对象时，实际上是在操作对象的引用而不是实际的对象。</p>
+<p>为此，引用类型的值是按引用访问的(当复制保存着对象的某个变量时，操作的是对象的引用。但在为对象添加属性时，操作的是实际的对象)</p>
+</blockquote>
+</li>
+</ul>
+<p>按照上面红宝书中所描述的不同处，所以变量的复制也会有所不同，基本数据类型复制的时候会在变量对象上创建一个新值，然后把该值复制到为新变量分配的位置上;对于引用类型则是复制其指针，该指针指向存储在堆中的一个对象</p>
+<img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bc86d4dbafe1420d8b1bc19a3f2df01f~tplv-k3u1fbpfcp-zoom-1.image" srcset="/img/loading.gif" lazyload alt="image-20200901234801250" style="zoom:50%;" />
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<p>这也就引出了深拷贝与浅拷贝的问题，这边不做展开了。</p>
+<p>按照上面的描述，来思考一个问题，函数传参数若入参是引用类型，那么这个时候函数内部对参数做了一些修改，是否会影响原来由的参数</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">setName</span>(<span class="hljs-params">obj</span>) &#123; <br>  obj.<span class="hljs-property">name</span> = <span class="hljs-string">&quot;Nicholas&quot;</span>;<br>&#125; <br><span class="hljs-keyword">var</span> person = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(); <br><span class="hljs-title function_">setName</span>(person); <br><span class="hljs-title function_">alert</span>(person.<span class="hljs-property">name</span>); <span class="hljs-comment">//&quot;Nicholas&quot;```</span><br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>看起来好像会影响。但是实际并非如此，函数传参是值传递，就像基本数据类型那样</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">setName</span>(<span class="hljs-params">obj</span>) &#123; <br> obj.<span class="hljs-property">name</span> = <span class="hljs-string">&quot;Nicholas&quot;</span>; <br> obj = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(); <br> obj.<span class="hljs-property">name</span> = <span class="hljs-string">&quot;Greg&quot;</span>; <br>&#125; <br><span class="hljs-keyword">var</span> person = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>(); <br><span class="hljs-title function_">setName</span>(person); <br><span class="hljs-title function_">alert</span>(person.<span class="hljs-property">name</span>); <span class="hljs-comment">//&quot;Nicholas&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>​		这个例子就可以说明即便传入值是引用类型，也是值传递。可以把 ECMAScript 函数的参数想象成局部变量，用完即销毁。</p>
+<p>顺便提一句变量类型检测typeof用于检测基本数据类型对于引用数据类型只会返回’object’，这是可以用instanceof去检测是具体是那种引用类型(根据它的原型链来识别)</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-title function_">alert</span>(person <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Object</span>); <span class="hljs-comment">// 变量 person 是 Object 吗？</span><br><span class="hljs-title function_">alert</span>(colors <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Array</span>); <span class="hljs-comment">// 变量 colors 是 Array 吗？</span><br><span class="hljs-title function_">alert</span>(pattern <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">RegExp</span>); <span class="hljs-comment">// 变量 pattern 是 RegExp 吗？</span><br></code></pre></td></tr></table></figure>
+
+<section id="user-content-nice" style="font-size: 16px; padding: 0 10px; word-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; line-height: 1.25; color: #2b2b2b; font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light; letter-spacing: 2px; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.04) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.04) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><h2 style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; display: block; border-bottom: 4px solid #40B8FA;" data-id="heading-0"><span class="prefix" style="display: flex; width: 20px; height: 20px; background-size: 20px 20px; background-image: url(https://my-wechat.mdnice.com/fullstack-1.png); margin-bottom: -22px;"></span><span class="content" style="display: flex; color: #40B8FA; font-size: 20px; margin-left: 25px;">JS的作用域</span><span class="suffix" style="display: flex; box-sizing: border-box; width: 200px; height: 10px; border-top-left-radius: 20px; background: RGBA(64, 184, 250, .5); color: rgb(255, 255, 255); font-size: 16px; letter-spacing: 0.544px; justify-content: flex-end; float: right; margin-top: -10px; box-sizing: border-box !important; overflow-wrap: break-word !important;"></span></h2>
+</section>
+
+<p>​		JS分为全局作用域跟局部作用域(函数作用域)，当代码在一个环境中执行时，会创建变量对象的一个作用域链(scope chain)。作用域链的用途，是保证对执行环境有权访问的所有变量和函数的有序访问。当在某个环境中为了读取或写入而引用一个标识符时，会从当前作用域前段的优先查找，如果没有找到就往上一级作用域查找。</p>
+<p>在es6之前申明变量都是使用var，var并没有块级作用域，只有局部作用域，会有变量提升，未申明使用，不会报错且值为undefined; let，const具有块级作用域，ES6 明确规定，如果区块中存在<code>let</code>和<code>const</code>命令，这个区块对这些命令声明的变量，从一开始就形成了封闭作用域。凡是在声明之前就使用这些变量，就会报错。</p>
+<p>总之，在代码块内，使用<code>let</code>命令声明变量之前，该变量都是不可用的。这在语法上，称为“暂时性死区”（temporal dead zone，简称 TDZ）。</p>
+<section id="user-content-nice" style="font-size: 16px; padding: 0 10px; word-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; line-height: 1.25; color: #2b2b2b; font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light; letter-spacing: 2px; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.04) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.04) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><h2 style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; display: block; border-bottom: 4px solid #40B8FA;" data-id="heading-0"><span class="prefix" style="display: flex; width: 20px; height: 20px; background-size: 20px 20px; background-image: url(https://my-wechat.mdnice.com/fullstack-1.png); margin-bottom: -22px;"></span><span class="content" style="display: flex; color: #40B8FA; font-size: 20px; margin-left: 25px;">JS的垃圾回收机制</span><span class="suffix" style="display: flex; box-sizing: border-box; width: 200px; height: 10px; border-top-left-radius: 20px; background: RGBA(64, 184, 250, .5); color: rgb(255, 255, 255); font-size: 16px; letter-spacing: 0.544px; justify-content: flex-end; float: right; margin-top: -10px; box-sizing: border-box !important; overflow-wrap: break-word !important;"></span></h2>
+</section>
+
+<p>​         JavaScript 是一门具有自动垃圾收集机制的编程语言，开发人员不必关心内存分配和回收问题。对于一个变量是否可以回收的判定依据是该变量是否被引用，也就是<span style='color:red'>可达性</span>。可以对 JavaScript 的垃圾收集例程作如下总结。</p>
+<p>1.离开作用域的值将被自动标记为可以回收，因此将在垃圾收集期间被删除。</p>
+<p>2.“标记清除”是目前主流的垃圾收集算法，这种算法的思想是给当前不使用的值加上标记，然</p>
+<p>后再回收其内存。</p>
+<p>3.另一种垃圾收集算法是“引用计数”，这种算法的思想是跟踪记录所有值被引用的次数。JavaScript引擎目前都不再使用这种算法；但在 IE 中访问非原生 JavaScript 对象（如 DOM 元素）时，这种算法仍然可能会导致问题。</p>
+<p>4.当代码中存在循环引用现象时，“引用计数”算法就会导致问题。</p>
+<p>5.解除变量的引用不仅有助于消除循环引用现象，而且对垃圾收集也有好处。为了确保有效地回收内存，应该及时解除不再使用的全局对象、全局对象属性以及循环引用变量的引用。</p>
+<p>参考文献：<a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000018605776?utm_source=tag-newest">前端面试：谈谈 JS 垃圾回收机制</a></p>
 
                 
               </div>
@@ -305,8 +344,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>http://example.com/2025/07/03/hello-world/</div>
+      <div></div>
+      <div>http://example.com/2020/09/01/JS高程读书笔记《一》/</div>
     </div>
     <div class="license-meta">
       
@@ -318,7 +357,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年7月3日</div>
+          <div>2020年9月1日</div>
         </div>
       
       
@@ -350,15 +389,15 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2020/09/10/JS%E9%AB%98%E7%A8%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%8A%E4%BA%8C%E3%80%8B/" title="">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
-                    
-                      <a href="/2020/09/10/JS%E9%AB%98%E7%A8%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%8A%E4%B8%89%E3%80%8B/" title="">
-                        <span class="hidden-mobile"></span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
                     
                   </article>
                 </div>
