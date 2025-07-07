@@ -16,13 +16,13 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="Ternence">
   <meta name="keywords" content="">
   
     <meta name="description" content="JS高程读书笔记《二》  Object类型    ​      简单的讲JS里面声明变量的方式有两种：1.使用 new 操作符后跟 Object 构造函数创建；2.使用对象字面量表示法。 Tips：  1.在通过对象字面量定义对象时，实际上不会调用 Object 构造函数（Firefox 2 及更早版本会调用 Object 构造函数；但 Firefox 3 之后就不会了） 2.在最后一个属性后面添">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/2020/09/10/JS%E9%AB%98%E7%A8%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%8A%E4%BA%8C%E3%80%8B/index.html">
+<meta property="og:url" content="http://mrjinlp.github.io/2020/09/10/JS%E9%AB%98%E7%A8%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%8A%E4%BA%8C%E3%80%8B/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="JS高程读书笔记《二》  Object类型    ​      简单的讲JS里面声明变量的方式有两种：1.使用 new 操作符后跟 Object 构造函数创建；2.使用对象字面量表示法。 Tips：  1.在通过对象字面量定义对象时，实际上不会调用 Object 构造函数（Firefox 2 及更早版本会调用 Object 构造函数；但 Firefox 3 之后就不会了） 2.在最后一个属性后面添">
 <meta property="og:locale" content="zh_CN">
@@ -30,7 +30,7 @@
 <meta property="og:image" content="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/850121a1e8d7436484594c36f760369f~tplv-k3u1fbpfcp-zoom-1.image">
 <meta property="article:published_time" content="2020-09-10T11:05:05.885Z">
 <meta property="article:modified_time" content="2021-03-04T11:25:40.177Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="Ternence">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6d417d951dab4eeb81011f514a6a22eb~tplv-k3u1fbpfcp-zoom-1.image">
   
@@ -74,7 +74,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"mrjinlp.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -384,13 +384,13 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div></div>
-      <div>http://example.com/2020/09/10/JS高程读书笔记《二》/</div>
+      <div>http://mrjinlp.github.io/2020/09/10/JS高程读书笔记《二》/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
           <div>作者</div>
-          <div>John Doe</div>
+          <div>Ternence</div>
         </div>
       
       
